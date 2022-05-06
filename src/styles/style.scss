@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  background-color: rgb(178, 225, 253);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  font-size: 70px;
+  text-align: center;
+  align-items: center;
+}
+
+input {
+  font-size: 32px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  outline: none;
+  width: 221px;
+  height: 100%;
+  ::placeholder {
+    font-size: 20px;
+  }
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  background-color: transparent;
+  padding: 7px 20px;
+  margin: 10px;
+  border: none;
+  background-color: rgb(176, 175, 233);
+  border: 1px solid #ccc;
+  cursor: pointer;
+  -webkit-box-shadow: 16px 16px 22px 0px rgba(34, 60, 80, 0.21);
+  -moz-box-shadow: 16px 16px 22px 0px rgba(34, 60, 80, 0.21);
+  box-shadow: 16px 16px 22px 0px rgba(34, 60, 80, 0.21);
+}

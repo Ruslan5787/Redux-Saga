@@ -1,0 +1,68 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  background-color: #b2e1fd;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div {
+  font-size: 70px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input {
+  font-size: 32px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  outline: none;
+  width: 221px;
+  height: 100%;
+}
+
+input ::-webkit-input-placeholder {
+  font-size: 20px;
+}
+
+input :-ms-input-placeholder {
+  font-size: 20px;
+}
+
+input ::-ms-input-placeholder {
+  font-size: 20px;
+}
+
+input ::placeholder {
+  font-size: 20px;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  background-color: transparent;
+  padding: 7px 20px;
+  margin: 10px;
+  border: none;
+  background-color: #b0afe9;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  -webkit-box-shadow: 16px 16px 22px 0px rgba(34, 60, 80, 0.21);
+  box-shadow: 16px 16px 22px 0px rgba(34, 60, 80, 0.21);
+}
+/*# sourceMappingURL=style.css.map */
